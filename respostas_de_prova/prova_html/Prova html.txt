@@ -1,0 +1,21 @@
+Qual é a utilidade do atributo alt em uma imagem?
+R: Ela mostra a descrição da imagem caso não carregue.
+O que é uma lista não ordenada?
+R: É uma lista onde a ordem dos itens não é importante, é representada pelo ul
+Qual atributo da âncora (<a>) representa o hyperlink para onde ela aponta?
+R: href
+O que podemos colocar dentro do elemento head?
+R: Metadados, css e links para arquivos externos
+Como adicionamos uma imagem no HTML?
+R: Com o elemento <img>
+O que está errado sobre o elemento header?
+R: Ela só pode ser usado uma vez por página
+R: Um elemento HTML é formado por uma TAG e seus atributos.
+Adicionalmente, alguns elementos pode possuir conteúdo, o qual é delimitado pela abertura e fechamento da sua respectiva TAG.
+Para que serve a semântica no HTML?
+R:Ela dá significado ao nosso código HTML
+O que podemos colocar dentro de um elemento p?
+R: Qualquer tipo de conteúdo
+Qual elemento não foi criado na versão 5 do HTML?
+R:H1 ao H6
+
