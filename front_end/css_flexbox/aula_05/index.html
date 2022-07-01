@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Justify content</title>
+</head>
+
+<style>
+    .container{
+        max-width: 400px;
+        border: 1px solid black;
+        margin: 0;
+        display: flex;
+    }
+    .item{
+        background-color: blueviolet;
+        margin: 5px;
+        text-align: center;
+        color: white;
+    }
+    .flex-start{
+        justify-content: flex-start;
+    }
+    .flex-end{
+        justify-content: flex-end;
+    }
+    .flex-center{
+        justify-content: center;
+    }
+    .flex-between{
+        justify-content: space-between;
+    }
+    .flex-around{
+        justify-content: space-around;
+    }
+</style>
+<body>
+    <p>Flex-start</p>
+    <section class="container flex-start">
+        <div class="div item">1</div>
+        <div class="div item">Item 2</div>
+        <div class="div item">Outro item</div>
+    </section>
+
+    <p>Flex-end</p>
+    <section class="container flex-end">
+        <div class="div item">1</div>
+        <div class="div item">Item 2</div>
+        <div class="div item">Outro item</div>
+    </section>
+
+    <p>center</p>
+    <section class="container flex-center">
+        <div class="div item">1</div>
+        <div class="div item">Item 2</div>
+        <div class="div item">Outro item</div>
+        <div class="div item">4m</div>
+        <div class="div item">5</div>
+    </section>
+
+    <p>Between</p>
+    <section class="container flex-between">
+        <div class="div item">1</div>
+        <div class="div item">Item 2</div>
+        <div class="div item">Outro item</div>
+        <div class="div item">4m</div>
+        <div class="div item">5</div>
+    </section>
+
+    <p>Around</p>
+    <section class="container flex-around">
+        <div class="div item">1</div>
+        <div class="div item">Item 2</div>
+        <div class="div item">Outro item</div>
+        <div class="div item">4m</div>
+        <div class="div item">5</div>
+    </section>
+
+</body>
+</html>
