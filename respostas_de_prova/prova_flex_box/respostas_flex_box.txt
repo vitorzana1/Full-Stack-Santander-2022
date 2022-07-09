@@ -1,0 +1,36 @@
+Qual o efeito de aplicar a seguinte propriedade e valor:  align-content: space-between ?
+R: Distribuid os itens uniformemente, de modo que o primeiro está no inicio do container enquanto o último está no final.
+
+Quais são os eixos possíveis ao utilizar a propriedade flex-direction?
+R: Column e row
+
+Qual o objetivo de utilizar a propriedade justify-content em um flex container?
+R: Distribuir os itens do container de acordo com espaço interno ao longo do eixo principal
+
+A propriedade flex-flow, faz abreviação de quais propriedades abaixo?
+R: Flex direction e flex-wrap
+
+A propriedade flex faz abreviação a 3 outras propriedades que podem ser utilizadas individualmente, quais seriam elas?
+R:
+Flex-grow, flex-shrink e flex-basis
+
+Qual a propriedade que possibilita fazer o alinhamento individual de um flex item em relação ao eixo do flex container?
+R: Align-self
+
+Qual o efeito de aplicar a seguinte propriedade e valor:  display: flex ?
+R:
+Inicializar o flex container, principal elemento que irá possuir flex itens
+
+Ao iniciar um flex container, quais são algumas das suas configurações de eixo por padrão?
+R: flex-direction: row, flex-wrap:nowrap
+
+Qual o efeito de aplicar a seguinte propriedade e valor:  align-items: stretch ?
+R:Esticar os itens de modo que preencham o container
+
+Qual o objetivo de utilizar a propriedade  flex-shrink?
+R: Define a capacidade de redução de um item, caso seja necessário
+
+
+
+
+
