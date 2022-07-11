@@ -92,7 +92,7 @@ header .menu{
 
 }
 
-#quem-somos h2:before{
+#quem-somos h2::before{
     content: "";
     height: 50px;
     width: 5px;
@@ -254,7 +254,7 @@ footer .footer{
     }
 
     header{
-        padding-bottom: 10%;
+        height: auto;
     }
     header ul{
         flex-direction: column;
@@ -262,7 +262,7 @@ footer .footer{
     
     header ul li{        
         border: 1px solid black;
-        padding: 10px 100%;
+        padding: 10px 992px;
     }
 
     .apresentacao{
