@@ -23,11 +23,13 @@ header .menu-lateral{
     align-items:stretch;
     margin-left: 40%;
     margin-top: 5px;
+    list-style: none;
+    
 }
 .menu-lateral a{
     text-decoration: none;
     color: white;
-    background-color: #a0d056;
+    background-color: #5c7e10;
     border: 1px solid black;
     padding: 5px;
 }
@@ -57,6 +59,7 @@ header .menu-lateral{
     padding-left: 10px;
     display: flex;
     background-color: #171a21;
+    
 }
 
 .menu-central a{
@@ -67,3 +70,120 @@ header .menu-lateral{
     margin-top: 6px;
 }
 
+section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items:baseline;
+    padding-bottom: 100px;
+}
+
+.container-login{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.container-login h1{
+    font-size: 34px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.login-email{
+    color: white;
+    margin-top: 35px;
+    font-size: 16px;
+    text-align: start;
+}
+
+.login-senha{
+    color: white;
+    margin-top: 35px;
+    font-size: 16px;
+    text-align: start;
+}
+
+section .box-digitar{
+    width: 250px;
+    height: 10px;
+    border: 1px solid #32353C;
+    padding: 10px 20px;
+    background-color: #32353C;
+}
+
+.botao-iniciar{
+    background:#47bfff;
+    color: white;
+    padding: 5px 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.esqueceu-senha{
+    color: white;
+}
+
+aside{
+    margin-left: 130px;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+
+aside p{
+    color: #8F98A0;
+    padding-bottom: 10px;
+}
+
+aside img{
+    width: 320px;
+}
+
+.saiba-mais{
+    color: white;
+}
+
+.cadastro{
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+#gratuito{
+    padding-bottom: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    background-color: #171a21;
+    align-items: center;
+    width: 100%;
+}
+
+.imagens-rodape {
+    justify-content:space-between;
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid white;
+    align-items: center;
+    text-align: center;
+    width: 940px;
+}
+
+.imagens-rodape #valve{
+    width: 100px;
+}
+
+.empresa p{
+    color: #8F98A0;
+}
+
+.empresa a{
+    padding: 10px;
+    color: #FFF;
+}
