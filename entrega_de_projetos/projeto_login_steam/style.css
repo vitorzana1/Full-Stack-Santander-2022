@@ -1,8 +1,9 @@
 *{
     padding: 0;
     margin: 0;
-    font-size: 14px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;   
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
     text-decoration: none;
 }
 
@@ -90,6 +91,7 @@ section{
     font-size: 34px;
     color: white;
     text-transform: uppercase;
+ 
 }
 
 .login-email{
