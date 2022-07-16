@@ -12,22 +12,18 @@ body{
 }
 
 header{
-    background-color: #171a21;
-    display: flex;
-    align-items: center;
+    background-color: #171a21;align-items: center;
     text-align: center;
 }
 
-header .menu-lateral{
+.menu-lateral{
     display: flex;
-    width: 100%;
-    align-items:stretch;
-    margin-left: 40%;
+    margin-left: 65%;
     margin-top: 5px;
     list-style: none;
     
 }
-.menu-lateral a{
+.container-lateral a{
     text-decoration: none;
     color: white;
     background-color: #5c7e10;
@@ -35,7 +31,7 @@ header .menu-lateral{
     padding: 5px;
 }
 
-.menu-lateral li{
+.container-lateral li{
     color: whitesmoke;
     padding: 5px;
     font-size: 12px;
@@ -43,7 +39,7 @@ header .menu-lateral{
     align-items: center;
 }
 
-.menu-lateral p{
+.container-lateral p{
     color: whitesmoke;
     list-style: none;
     text-align: center;
@@ -51,19 +47,19 @@ header .menu-lateral{
     padding-top: 4px;
 }
 
-.menu-central img{
+.container-central img{
     width: 150px;
     margin-left: 150px;
 }
 
-.menu-central{
+.container-central{
     padding-left: 10px;
     display: flex;
     background-color: #171a21;
-    
+    align-items: center;    
 }
 
-.menu-central a{
+.container-central a{
     padding: 12px;
     list-style: none;
     text-decoration: none;
@@ -79,14 +75,15 @@ section{
 
 .container{
     display: flex;
-    align-items:baseline;
+    align-items: baseline;
     padding-bottom: 100px;
+    justify-content: space-around;
 }
 
 .container-login{
-    margin-left: 350px;
     margin-top: 50px;
 }
+
 .container-login h1{
     font-size: 34px;
     color: white;
@@ -108,7 +105,7 @@ section{
     text-align: start;
 }
 
-section .box-digitar{
+.box-digitar{
     width: 250px;
     height: 10px;
     border: 1px solid #32353C;
@@ -129,9 +126,6 @@ section .box-digitar{
 }
 
 aside{
-    margin-left: 130px;
-    align-items: center;
-    padding-top: 50px;
     text-align: center;
 }
 
@@ -173,8 +167,7 @@ footer{
     padding: 10px;
     border-top: 1px solid white;
     align-items: center;
-    text-align: center;
-    width: 940px;
+    width: 70%;
 }
 
 .imagens-rodape #valve{
@@ -188,4 +181,72 @@ footer{
 .empresa a{
     padding: 10px;
     color: #FFF;
+}
+
+@media (max-width: 992px){
+
+    header{
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .menu-lateral{
+        align-items: center;
+        display: flex;
+        margin: auto;
+        padding: 10px;
+        width: fit-content;
+    }
+
+    .menu-lateral li{
+        padding: 0 15px;
+    }
+    
+    .container-central{
+        display: block;
+    }
+
+    .container-central img {
+        width: 150px;
+        margin: auto;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .container-login{
+        margin: auto;
+    }
+
+    .container-central img{
+        width: auto;
+    }
+
+    section{
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    aside{
+        margin: auto;
+        align-items: center;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    aside img{
+        max-width: 320px;
+    }
+
+    .imagens-rodape{
+        width: 90%;
+    }
+    .empresa{
+        text-align: center;
+        padding: 10px 5px 0 5px;
+    }
 }
