@@ -1,0 +1,39 @@
+Em um projeto web pequeno, é comum que os arquivos Javascript e CSS estejam em qual pasta?
+R: Assets
+
+Qual a diferença entre Javascript e ECMAScript?
+R: O Javascript é uma linguagem de programação e o ECMAScript é um padrão utilizado tanto por ela quando por outras linguagens.
+
+Dentre as opções, qual NÃO é uma das principais características do Javascript?
+R: Compilada
+
+Sobre o Console, é correto afirmar que
+R:É possível utilizá-lo no navegador nativamente e no terminal instalando o node.js
+
+Dada a função
+
+function soma(a, b) {
+    return a + b;
+}
+
+O que irá acontecer quando o código for executado?
+R: Nada, pois a função foi apenas declarada e não invocada.
+
+Qual o comando para executar arquivos Javascript no terminal?
+R: node
+
+Qual é a diferença entre variáveis e constantes?
+R: Variaveis são valores dinâmicos e constantes são valores que não mudam.
+
+Qual a tag utilizada para importar um arquivo Javascript em uma página HTML?
+R: script
+
+Por que é dito que Javascript é a “linguagem da web”?
+R: Pq é uma linguagem que os browsers entendem
+
+As atualizações do ECMAScript são sempre muito comentadas. Sobre elas, podemos afirmar que:
+R: Acontecem anualmente
+
+
+
+
