@@ -1,0 +1,58 @@
+Qual a diferença entre as declarações?
+contador = 1
+contador == 1
+contador === 1
+R: Na declaração a ocorre uma atribuição, na declaração b, uma comparação, e na c uma comparação de valor e tipo
+
+Os comparadores aritiméticos do Javascript tão muito similares aos que utilizamos na matemática. O operador ** representa uma operação:
+R: Exponencial
+
+Qual o resultado esperado após a execução do código abaixo?
+
+function validaNumero(num){
+    if (!num) return “Envie um número válido!”;
+  
+    return num;
+}
+
+validaNumero();
+R:Envie um número valido
+
+Entre os operadores mais populares do Javascript estão:
+R:Aritimética, logica e condicionais
+
+Como verificar se dois valores são diferentes?
+R:!=
+
+Qual a diferença entre as declarações abaixo?
+
+I- condicao ? expressao_1 : expressao_2
+II- if (condicao)
+    expressao_1
+else
+    expressao_2
+R: São equivalentes
+
+O operador de módulo (%) representa o resto da divisão entre dois números. Sobre a operação abaixo, podemos verificar:
+
+num % 2 === 0
+R: Se um número é par
+
+
+Fazem parte do conjunto de operadores aritiméticos os sinais:
+R: /, % e *
+
+Dadas as comparações abaixo, é correto afirmar que
+
+I - meuArray.length > 3 && tamanho == 2
+II- meuArray.length > 3 || tamanho == 2
+R:Na comparação 1, ambas operações precisam ser verdadeiras, na segunda apenas uma.
+
+Dado o código:
+
+let contador = 0
+
+console.log(contador++)
+
+Qual será o resultado?
+R: 0
